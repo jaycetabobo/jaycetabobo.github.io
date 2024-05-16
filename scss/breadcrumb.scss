@@ -1,29 +1,35 @@
 /* Home Banner Area css
 ============================================================================================ */
-.home_banner_area{
+.home_banner_area {
 	z-index: 1;
 	background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
 	background-size: cover;
-	.banner_inner{
+
+	.banner_inner {
 		width: 100%;
-		.home_left_img{
+
+		.home_left_img {
 			padding-top: 195px;
 		}
-		.col-lg-6{
+
+		.col-lg-6 {
 			vertical-align: middle;
 			align-self: center;
 		}
-		.banner_content{
+
+		.banner_content {
 			text-align: left;
 			color: $dip;
-			h5{
+
+			h5 {
 				font-size: 14px;
 				font-family: $rob;
 				text-transform: uppercase;
 				letter-spacing: 2.1px;
 				margin-bottom: 20px;
 			}
-			h2{
+
+			h2 {
 				margin-top: 0px;
 				font-size: 48px;
 				font-weight: bold;
@@ -32,7 +38,8 @@
 				text-transform: uppercase;
 				margin-bottom: 20px;
 			}
-			p{
+
+			p {
 				color: $pfont;
 				font-family: $rob;
 				max-width: 680px;
@@ -40,31 +47,33 @@
 				line-height: 26px;
 				margin: 0px auto 45px;
 			}
-			.banner_map_img{
+
+			.banner_map_img {
 				text-align: right;
 			}
-			.banner_btn{
-				
-			}
+
+			.banner_btn {}
 		}
-	}	
-	
+	}
+
 }
 
-.blog_banner{
+.blog_banner {
 	min-height: 780px;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
 	margin-bottom: 0px;
-	.banner_inner{
+
+	.banner_inner {
 		background: #04091e;
-		position: relative; 
+		position: relative;
 		overflow: hidden;
 		width: 100%;
 		min-height: 780px;
 		z-index: 1;
-		.overlay{
+
+		.overlay {
 			background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
 			opacity: .5;
 			height: 125%;
@@ -74,23 +83,27 @@
 			width: 100%;
 			z-index: -1;
 		}
-		.blog_b_text{
+
+		.blog_b_text {
 			max-width: 700px;
 			margin: auto;
 			color: #fff;
 			margin-top: 40px;
-			h2{
+
+			h2 {
 				font-size: 60px;
 				font-weight: 500;
 				font-family: $rob;
 				line-height: 66px;
 				margin-bottom: 15px;
 			}
-			p{
+
+			p {
 				font-size: 16px;
 				margin-bottom: 35px;
 			}
-			.white_bg_btn{
+
+			.white_bg_btn {
 				line-height: 42px;
 				padding: 0px 45px;
 			}
@@ -98,35 +111,39 @@
 	}
 }
 
-.banner_box{
+.banner_box {
 	max-width: 1620px;
 	margin: auto;
 }
-.banner_area{
+
+.banner_area {
 	position: relative;
 	z-index: 1;
 	min-height: 430px;
-	.banner_inner{
+
+	.banner_inner {
 		position: relative;
 		overflow: hidden;
 		width: 100%;
 		min-height: 430px;
 		background: #f9f9ff;
 		z-index: 1;
-//		.overlay{
-//			background: url(../img/banner/banner.jpg) no-repeat scroll center center;
-//			position: absolute;
-//			left: 0;
-//			right: 0;
-//			top: 0;
-//			height: 125%;
-//			bottom: 0;
-//			z-index: -1;
-//			opacity: 1;
-//		}
-		.banner_content{
+
+		//		.overlay{
+		//			background: url(../img/banner/banner.jpg) no-repeat scroll center center;
+		//			position: absolute;
+		//			left: 0;
+		//			right: 0;
+		//			top: 0;
+		//			height: 125%;
+		//			bottom: 0;
+		//			z-index: -1;
+		//			opacity: 1;
+		//		}
+		.banner_content {
 			margin-top: 70px;
-			h2{
+
+			h2 {
 				color: $dip;
 				font-size: 36px;
 				font-family: $hee;
@@ -134,14 +151,16 @@
 				text-transform: uppercase;
 				font-weight: bold;
 			}
-			.page_link{
-				a{
+
+			.page_link {
+				a {
 					font-size: 14px;
 					color: $pfont;
 					font-family: $rob;
 					margin-right: 32px;
 					position: relative;
-					&:before{
+
+					&:before {
 						content: "\e87a";
 						font-family: 'Linearicons-Free';
 						font-size: 14px;
@@ -150,11 +169,13 @@
 						top: 54%;
 						transform: translateY(-50%);
 					}
-					&:last-child{
+
+					&:last-child {
 						margin-right: 0px;
-						&:before{
+
+						&:before {
 							display: none;
-						}	
+						}
 					}
 				}
 			}
